@@ -17,7 +17,7 @@ const App = () => {
     <SafeAreaView style = {style.container}>
       <Text style = {style.fontNumber}>{numero}</Text>
       <TouchableOpacity onPress = {handleNumero} style = {style.buttonDesign}>
-        <Text style = {style.fontButton}>Gerar número</Text>
+        <Text style = {style.fontButton}>Randomize!</Text>
       </TouchableOpacity>       
     </SafeAreaView>    
   );
